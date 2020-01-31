@@ -2,6 +2,9 @@
 // https://www.cloudbooklet.com/setup-node-js-with-apache-proxy-on-ubuntu-18-04-for-production/
 // https://pm2.keymetrics.io/docs/usage/quick-start/
 
+// very nice TypeScript for Node myswl REST API
+// https://github.com/FaztWeb/typescript-mysql-rest
+
 
 require("dotenv").config();
 const express = require("express");
