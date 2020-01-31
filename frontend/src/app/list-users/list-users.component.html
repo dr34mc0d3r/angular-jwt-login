@@ -1,0 +1,12 @@
+{{ users | json }}
+<div class="row mt-5">
+    <div class="col-md-4 mb-3" *ngFor="let user of users.data">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">{{user.email}}</h5>
+          <p class="card-text">{{user.phone}}</p>
+          <a class="nav-link" routerLink="/edit/{{user.id}}">Edit</a>
+        </div>
+      </div>
+    </div>
+  </div>
